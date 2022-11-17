@@ -109,6 +109,19 @@
             color: teal;
             font-size: 40px;
         }
+        .box8::before{
+            content: "The before content";
+            color: red;
+        }
+        .box8::after{
+            content: "The after content";
+            color: burlywood;
+        }
+        .box9{
+            position: absolute;
+            top: 100px;
+            left: 50%;
+        }
     </style>
 </head>
 <body>
@@ -137,6 +150,14 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quam.
         </p>
     </div>
+    <div class="box8">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quam.
+</div>
+<div class="box9">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quam.
+    </p>
+</div>
 
     <ul class="parent">
         <li>1st Child</li>
